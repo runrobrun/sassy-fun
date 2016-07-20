@@ -15,3 +15,39 @@ You can choose to display the compiled css in four ways:
 
 `sass --watch --style expanded style.scss:style.css`
 `sass --style expanded style.scss:style.css`
+
+Variables
+
+Always start with $ and end with ;
+
+Variables can point to other variables
+
+Best used for colors, font stacks, widths, paddings, margins, other spacing etc.
+
+
+Extend creates classes you would like to share attribues with. Any class that extends another
+inherits it's attributes
+
+.extendable-class {
+    color: blue;
+    font-weight:bold;
+}
+
+.big-blue {
+    @extends .extendable-class;
+    font-size:1.5em;
+}
+
+Mixins are functions that can take arguments
+
+@mixin headline ($color, $size) {
+  color: $color;
+  font-size: $size;
+}
+
+h1 {
+  @include headline(green, 12px);
+}
+
+nesting: SASS allows us to nest elements, classes, and ID's into parent/child collections
+Typical rules is note to nest more than three levels deep
