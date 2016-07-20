@@ -1,0 +1,21 @@
+{
+  "name": "sassy-fun",
+  "homepage": "https://github.com/runrobrun/sassy-fun",
+  "authors": [
+    "Hammann",
+    "Robert <rhammann@vermeer.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}
