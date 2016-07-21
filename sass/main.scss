@@ -1,0 +1,141 @@
+$light-gray: #efefef;
+$med-gray: #ccc;
+$light-pink: #FFF0F2;
+$teal: #5a967b;
+$dark-green: #004400;
+$salmon: #fa967b;
+$bright-green: #00B225;
+$white: #fff;
+$black: #000;
+$dark-gray: #555;
+$standard-padding: 10px;
+
+.content.mainNav {
+  background: $light-gray;
+  border:1px solid $med-gray;
+  padding: $standard-padding;
+}
+
+.content.subNav {
+  margin-top:10px;
+  background: $light-pink;
+  border:1px solid $med-gray;
+  padding:$standard-padding;
+}
+
+.content-body {
+  background-color: $light-gray;
+  border:1px solid $med-gray;
+  padding:$standard-padding;
+}
+
+.content-body a {
+  color: $teal;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.content-body a:hover {
+  color: $dark-green;
+  text-decoration: underline;
+  font-weight:bold;
+}
+
+.content-body a:visited {
+  color: $salmon;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.content.subNav a {
+  color: $bright-green;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:.8em;
+}
+
+.content.subNav a:visited {
+  color: $bright-green;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:.8em;
+}
+
+.content.subNav a:hover {
+  color: $dark-green;
+  text-decoration: underline;
+  font-weight:bold;
+  font-size:.8em;
+
+}
+
+.content.mainNav a {
+  color: $teal;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:1.1em;
+}
+
+.content.mainNav a:visited {
+  color: $teal;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:1.1em;
+}
+
+.content.mainNav a:hover {
+  color: #fa967b;
+  text-decoration: underline;
+  font-weight:bold;
+  font-size:1.1em;
+}
+
+.mainNav ul {
+  list-style: none;
+  margin:3px;
+  padding:0;
+}
+
+.mainNav ul li:before {
+  color: $teal;
+  content: ">>";
+  font-weight: bold;
+  font-style: italic;
+  margin-right: .25em;
+}
+
+.subNav ul {
+  list-style: none;
+  margin:3px;
+  padding:0;
+}
+
+.subNav ul li:before {
+  color: $teal;
+  content: ">>";
+  font-weight: bold;
+  font-style: italic;
+  margin-right: .25em;
+}
+
+.body-headline {
+  padding:10px;
+  background-color:$black;
+  color:$white;
+  font-size:2em;
+}
+
+.secondary-headline {
+  padding:10px;
+  background-color: $dark-gray;
+  color:$white;
+  font-size:1.8em;
+}
+
+.body-headline i {
+  color:$teal;
+}
+
+.secondary-headline i {
+  color:$salmon;
+}
